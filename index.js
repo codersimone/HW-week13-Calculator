@@ -1,29 +1,29 @@
-function showMessage() {
-    let a = prompt ("Введите первое число");
-    let b = prompt ("Введите второе число");
+function getValue() {
+    let num = prompt ("Введите число");
+    num = Number(num);
+    return num;
 }
 
 function sumAddition() {
-    showMessage();
-    alert(Number(a) + Number(b));
+    const num1 = getValue();
+    const num2 = getValue();
+    alert(num1 + num2);
 }
 
-
-
-
-
 function sumSubtraction() {
-    showMessage();
-    alert(Number(a) - Number(b));
+    const num1 = getValue();
+    const num2 = getValue();
+    alert(num1 - num2);
 }
 
 function sumMultiplication() {
-    showMessage();
-    alert(Number(a) * Number(b));
+    const num1 = getValue();
+    const num2 = getValue();
+    alert(num1 * num2);
 }
 
 function sumDivision() {
-    showMessage();
-    alert(Number(a) / Number(b));
+    const num1 = getValue();
+    const num2 = getValue();
+    alert(num1 / num2);
 }
-
